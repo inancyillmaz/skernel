@@ -1,0 +1,23 @@
+I WANT TO DETERMINE THE IF THE CODE SNIPPET GIVEN ABOVE IS A UNIT TEST OR NOT
+
+JOKE MUST BE:
+- G RATED
+- WORKPLACE/FAMILY SAFE
+NO SEXISM, RACISM OR OTHER BIAS/BIGOTRY
+
+RESPONSE MUST BE IN JSON:
+- IF IT'S A UNIT TEST RETURN
+ {
+ "isUnitTest": true
+ }
+- IF IT'S NOT A UNIT TEST THEN RETURN
+ {
+ "isUnitTest": false
+ }
+
+Incorporate the style suggestion, if provided: {{$style}}
++++++
+
+{{$input}}
++++++
+
