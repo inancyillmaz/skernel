@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "description": "Generate a funny joke",
+  "description": "Generate an new assertion way for unit test",
   "type": "completion",
   "completion": {
     "max_tokens": 1000,
@@ -13,12 +13,7 @@
     "parameters": [
       {
         "name": "input",
-        "description": "Joke subject",
-        "defaultValue": ""
-      },
-      {
-        "name": "style",
-        "description": "Give a hint about the desired joke style",
+        "description": "It's a unit test",
         "defaultValue": ""
       }
     ]

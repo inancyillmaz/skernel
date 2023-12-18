@@ -1,0 +1,21 @@
+DETERMINE IF THE PROVIDED CODE'S ASSERTION FUNCTION MATCHES THE FOLLOWING ASSERTION FUNCTION:
+
+VALID ASSERTION FUNCTION: infix fun Any?.`should be`(expectedResult: Any?) {
+    Truth.assertThat(this).isEqualTo(expectedResult)
+
+
+IF THE ASSERTION FUNCTION OF INPUT IS A VALID ASSERTION FUNCTION THEN RESPONSE:
+{
+ "needAssertion": false
+}
+
+IF THE ASSERTION FUNCTION OF INPUT IS NOT A VALID ASSERTION FUNCTION THEN RESPONSE:{
+ "needAssertion": true
+}
+
+Incorporate the style suggestion, if provided: {{$style}}
++++++
+
+{{$input}}
++++++
+

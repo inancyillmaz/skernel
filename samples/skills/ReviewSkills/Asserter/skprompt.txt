@@ -1,0 +1,14 @@
+I WANT TO REWRITE UNIT TEST, REPLACE ASSERTION FUNCTION WITH infix fun Any?.`should be`(expectedResult: Any?) {
+    Truth.assertThat(this).isEqualTo(expectedResult)
+}
+
+RESPONSE MUST BE IN STRING:
+  $response
+
+
+Incorporate the style suggestion, if provided: {{$style}}
++++++
+
+{{$input}}
++++++
+
